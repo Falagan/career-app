@@ -1,0 +1,58 @@
+import { TECH_LEVELS } from '../shared/models/tech-levels';
+
+export const ToolsList = [
+  {
+    id: 1,
+    name: 'angular',
+    i18n: 'angular',
+    level: TECH_LEVELS.ARCHITECT,
+    versions: ['2-14'],
+    description: '',
+    link: 'https://angular.io',
+  },
+  {
+    id: 2,
+    name: 'nestjs',
+    i18n: 'typescript',
+    level: TECH_LEVELS.SENIOR,
+    versions: ['6-8'],
+    description: '',
+    link: 'https://nestjs.com/',
+  },
+  {
+    id: 3,
+    name: 'nodejs',
+    i18n: 'typescript',
+    level: TECH_LEVELS.SENIOR,
+    versions: ['14-16'],
+    description: '',
+    link: 'https://nodejs.org/en/',
+  },
+  {
+    id: 4,
+    name: 'express',
+    i18n: 'typescript',
+    level: TECH_LEVELS.SENIOR,
+    versions: ['3-4'],
+    description: '',
+    link: 'https://expressjs.com/es/',
+  },
+  {
+    id: 5,
+    name: 'react',
+    i18n: 'typescript',
+    level: TECH_LEVELS.INTERMEDIATE,
+    versions: ['18'],
+    description: '',
+    link: 'https://reactjs.org/',
+  },
+  {
+    id: 6,
+    name: 'Nx workspaces',
+    i18n: 'nx',
+    level: TECH_LEVELS.INTERMEDIATE,
+    versions: ['12-15'],
+    link: 'https://nrwl.io/',
+    description: '',
+  },
+];
